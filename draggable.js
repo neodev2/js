@@ -1,4 +1,5 @@
 function draggableMode(selector, extraCss){
+    
     let isMouseDown = false;
     let elems = document.querySelectorAll(selector);
     let elem, l, t;
@@ -30,4 +31,5 @@ function draggableMode(selector, extraCss){
             }
         }
     }
+    
 }
