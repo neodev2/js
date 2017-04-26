@@ -1,6 +1,20 @@
 # js
 
-draggable.js https://github.com/neodev2/js/blob/master/draggable.js:
-mke elements draggable
-usage:
-draggableMode('.mydiv', {'position': 'fixed','transform': 'none'});
+description goes here...
+
+<a href="https://neodev2.github.io/js/">DEMO</a>
+
+---
+
+<b>Index:</b>
+
+<ul>
+    <li><a href="#draggable">Make element(s) draggable</a></li>
+</ul>
+
+---
+
+<a href="https://neodev2.github.io/js/draggable.js"><b id="draggable">Draggable:</b></a>
+```javascript
+draggable('.mydiv', {'position': 'fixed','transform': 'none'});
+```
