@@ -1,4 +1,4 @@
-function draggableMode(selector, extraCss){
+function draggable(selector, extraCss){
     
     let isMouseDown = false;
     let elems = document.querySelectorAll(selector);
