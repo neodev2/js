@@ -1,15 +1,13 @@
 # js
 
-description goes here...
-
-<a href="https://neodev2.github.io/js/">DEMO</a>
+useful js stuff...
 
 ---
 
 <b>Index:</b>
 
 <ul>
-    <li><a href="#draggable">Make element(s) draggable</a></li>
+    <li><a href="#draggable">Draggable: Make element(s) draggable</a></li>
 </ul>
 
 ---
