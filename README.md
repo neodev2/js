@@ -1,11 +1,3 @@
-# js
-
-useful js stuff...
-
----
-
-<b>Index:</b>
-
 <ul>
     <li><a href="#draggable">Draggable: Make element(s) draggable</a></li>
     <li><a href="#get-object-keys-by-value">Get object keys by value</a></li>
