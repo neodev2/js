@@ -121,7 +121,7 @@ console.log(getObjKeysByValue(obj, 'desktop app, code editor'));
 
 ---
 
-<b id="jquery-clone-element-loop">jQuery clone element loop:</b>
+<b id="jquery-clone-element-loop">jQuery clone element loop:</b><br>
 supposing you have the following structure:
 ```html
 <section>
@@ -131,7 +131,7 @@ supposing you have the following structure:
     </div>
 </section>
 ```
-then you can clone it in this way:
+then you could clone it in this way:
 ```javascript
 for(var i=0;i<4;i++){
     var img = 'url(https://placeimg.com/1200/900/any?r='+i+')';
