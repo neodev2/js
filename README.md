@@ -46,7 +46,7 @@ function draggable(selector, extraCss){
 }
 ```
 
-usage:
+Usage:
 
 ```javascript
 draggable('.mydiv', {'position': 'fixed','transform': 'none'});
@@ -54,7 +54,7 @@ draggable('.mydiv', {'position': 'fixed','transform': 'none'});
 
 ---
 
-<h3 id="get-object-keys-by-value">Get object keys by value:</h3> (still under development)
+<h3 id="get-object-keys-by-value">Get object keys by value: <small>(still under development)</small></h3>
 
 ```javascript
 function getObjKeysByValue (obj, value, isRoot, isRoot2) {
@@ -122,8 +122,8 @@ console.log(getObjKeysByValue(obj, 'desktop app, code editor'));
 
 ---
 
-<h3 id="jquery-clone-element-loop">jQuery clone element loop:</h3><br>
-supposing you have the following structure:
+<h3 id="jquery-clone-element-loop">jQuery clone element loop:</h3>
+Supposing you have the following structure:
 
 ```html
 <section>
@@ -134,7 +134,7 @@ supposing you have the following structure:
 </section>
 ```
 
-then you could clone it in this way:
+Then you could clone it in this way:
 
 ```javascript
 for(var i=0;i<4;i++){
