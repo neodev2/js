@@ -6,7 +6,7 @@
 
 ---
 
-<b id="draggable">Draggable:</b>
+<h3 id="draggable">Draggable:</h3>
 
 ```javascript
 function draggable(selector, extraCss){
@@ -54,7 +54,7 @@ draggable('.mydiv', {'position': 'fixed','transform': 'none'});
 
 ---
 
-<b id="get-object-keys-by-value">Get object keys by value:</b> (still under development)
+<h3 id="get-object-keys-by-value">Get object keys by value:</h3> (still under development)
 ```javascript
 function getObjKeysByValue (obj, value, isRoot, isRoot2) {
     var keys = [];
@@ -121,7 +121,7 @@ console.log(getObjKeysByValue(obj, 'desktop app, code editor'));
 
 ---
 
-<b id="jquery-clone-element-loop">jQuery clone element loop:</b><br>
+<h3 id="jquery-clone-element-loop">jQuery clone element loop:</h3><br>
 supposing you have the following structure:
 ```html
 <section>
