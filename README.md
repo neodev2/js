@@ -54,7 +54,7 @@ draggable('.mydiv', {'position': 'fixed','transform': 'none'});
 
 ---
 
-<h3 id="get-object-keys-by-value">Get object keys by value: <small>(still under development)</small></h3>
+<h3 id="get-object-keys-by-value">Get object keys by value: (still under development)</h3>
 
 ```javascript
 function getObjKeysByValue (obj, value, isRoot, isRoot2) {
@@ -123,6 +123,7 @@ console.log(getObjKeysByValue(obj, 'desktop app, code editor'));
 ---
 
 <h3 id="jquery-clone-element-loop">jQuery clone element loop:</h3>
+
 Supposing you have the following structure:
 
 ```html
