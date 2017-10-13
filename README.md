@@ -1,6 +1,7 @@
 <ul>
     <li><a href="#draggable">Draggable: Make element(s) draggable</a></li>
     <li><a href="#get-object-keys-by-value">Get object keys by value</a></li>
+    <li><a href="#jquery-clone-element-loop">jQuery clone element loop</a></li>
 </ul>
 
 ---
@@ -120,3 +121,13 @@ console.log(getObjKeysByValue(obj, 'desktop app, code editor'));
 
 ---
 
+<b id="jquery-clone-element-loop">jQuery clone element loop:</b>
+```javascript
+for(var i=0;i<10;i++){
+    var img = 'url(https://placeimg.com/1200/900/any?r='+i+')';
+    var xxx = $('section').eq(0).clone().css('background-image', img).appendTo('body');
+}
+$('section').eq(0).remove();
+```
+
+---
