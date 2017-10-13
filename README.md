@@ -122,8 +122,18 @@ console.log(getObjKeysByValue(obj, 'desktop app, code editor'));
 ---
 
 <b id="jquery-clone-element-loop">jQuery clone element loop:</b>
+supposing you have the following structure:
+```html
+<section>
+    <div>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</section>
+```
+then you can clone it in this way:
 ```javascript
-for(var i=0;i<10;i++){
+for(var i=0;i<4;i++){
     var img = 'url(https://placeimg.com/1200/900/any?r='+i+')';
     var xxx = $('section').eq(0).clone().css('background-image', img).appendTo('body');
 }
