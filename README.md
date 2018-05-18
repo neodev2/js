@@ -2,6 +2,7 @@
     <li><a href="#draggable">Draggable: Make element(s) draggable</a></li>
     <li><a href="#get-object-keys-by-value">Get object keys by value</a></li>
     <li><a href="#jquery-clone-element-loop">jQuery clone element loop</a></li>
+    <li><a href="#newStrNest1FromArray">newStrNest1FromArray</a></li>
 </ul>
 
 ---
@@ -146,3 +147,46 @@ $('section').eq(0).remove();
 ```
 
 ---
+
+<h3 id="newStrNest1FromArray">newStrNest1FromArray:</h3>
+
+```javascript
+function newStrNest1FromArray(array, a1, a2, sep, b1, b2){
+	var str = a1;
+	for(var i=0; i<array.length; i++){
+		sep = (array.length-1) === i ? '' : sep;
+		str += b1 +array[i]+ b2 + sep;
+	}
+	str += a2;
+	return str;
+}
+```
+
+Usage [demo](https://jsfiddle.net/mg74dwu7/):
+
+```javascript
+document.body.innerHTML += newStrNest1FromArray(
+	['divvv','h1','p','button','small'],
+	'<select>',
+	'</select>',
+	'',
+	'<option>',
+	'</option>'
+);
+```
+
+```javascript
+document.body.outerHTML = document.body.outerHTML.replace('\<body\>', '<body '+newStrNest1FromArray(
+	['bg-gray','class2','class3'],
+	'class="',
+	'"',
+	' ',
+	'',
+	''
+)+'>');
+```
+
+---
+
+
+
