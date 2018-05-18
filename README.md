@@ -175,6 +175,8 @@ document.body.innerHTML += newStrNest1FromArray(
 );
 ```
 
+or
+
 ```javascript
 document.body.outerHTML = document.body.outerHTML.replace('\<body\>', '<body '+newStrNest1FromArray(
 	['bg-gray','class2','class3'],
